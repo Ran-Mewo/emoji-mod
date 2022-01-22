@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "mcemojis",
+  "version": "${version}",
+  "name": "MCEmojis",
+  "description": "",
+  "authors": [
+    "DrTheo_"
+  ],
+  "contact": {},
+  "icon": "assets/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.drtheo.mcemojis.MCEmojis"
+    ]
+  },
+  "mixins": [
+    "mcemojis.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.*",
+    "java": ">=16"
+  }
+}

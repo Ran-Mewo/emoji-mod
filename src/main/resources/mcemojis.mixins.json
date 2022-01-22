@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.drtheo.mcemojis.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "client": [
+    "ChatScreenMixin",
+    "SignEditScreenMixin",
+    "BookEditScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
